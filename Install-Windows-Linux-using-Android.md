@@ -77,6 +77,12 @@ AI
 - [Google Gemini](https://github.com/nekupaw/gemini-desktop/releases): A simple Gemini desktop client (Minimize/Maximize:Ctrl+G;ChatUsingMicrophone:Ctrl+Shift+G)
 - [Microsoft Copilot](https://www.microsoft.com/store/productId/9NHT9RB2F4HD?ocid=pdpshare): your everyday AI companion
   
+Audio
+
+- [EarTrumpet](https://www.microsoft.com/store/productId/9NBLGGH516XP?ocid=pdpshare): Per-application volume control
+- [AQUA](https://github.com/h39s/AQUA/releases): System-wide Audio Equalizer
+- [audacity](https://github.com/audacity/audacity/releases): Audio Editor
+
 Browser
 
 - [Chrome](https://www.google.com/chrome/): Google Chromium

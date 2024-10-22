@@ -180,6 +180,7 @@ Personalisation
 
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB/-/releases/) Open source RGB lighting control software.
 - [Windows Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases): Automatically switches between the dark and light theme
+- [Desktop Dimmer](https://github.com/sidneys/desktop-dimmer/releases): Enable darker-than-dark dimming for internal and external screens.
 - [Monitorian](https://www.microsoft.com/store/productId/9NW33J738BL0?ocid=pdpshare): adjust the brightness of monitors using monitor Display Data Channel/Command Interface(DDC/CI) controller over VGA/HDMI/DP/Type-C.
 
 Photo & Video

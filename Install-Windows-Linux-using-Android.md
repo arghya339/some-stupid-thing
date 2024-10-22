@@ -252,6 +252,32 @@ VPN & Proxy
 
 - [DNS Changer](https://github.com/DnsChanger/dnsChanger-desktop/releases): DNS Changer
 - [HostsFileEditor](https://github.com/scottlerch/HostsFileEditor/releases): hosts file manager + [StevenBlack/hosts](https://github.com/StevenBlack/hosts/blob/master/hosts): StevenBlack Unified hosts = (adware + malware)
+
+<details><summary>
+
+### Import StevenBlack Unified & Reset to default hosts
+</summary>
+
+### Import StevenBlack Unified hosts
+
+- Install [HostsFileEditor](https://github.com/scottlerch/HostsFileEditor/releases)
+- Download [StevenBlack Unified hosts.txt](https://github.com/StevenBlack/hosts/blob/master/hosts)
+- Open HostsFileEditor > Yes > File > Import... > C:\Users\user_name\Downloads\hosts.txt > Open > Save.
+
+<details><summary>
+
+### Reset to default hosts
+</summary>
+
+- Install [Microsoft PowerToys](https://apps.microsoft.com/store/detail/XP89DCGQ3K6VLD?ocid=pdpshare)
+- Open Microsoft PowerToys > File Locksmith > Enable File Locksmith
+- Open HostsFileEditor > File > Restore Default > File > Save As... > C:\Users\user_name\Documents\hosts.file > Save.
+- Open File Explorer > This PC \ Local Disk (C:)\Windows\System32\drivers\etc select hosts.file Shift + Right click > Unlock with File Locksmith > from File Locksmith click Restart as administrator > Yes > close File Locksmith > Select hosts.file from File EXplorer > Delete > Continue.
+- Cut C:\Users\user_name\Documents\hosts.file & Paste to C:\Windows\System32\drivers\etc > Continue.
+- Now you see hosts.file by Microsoft Corp. Restore
+</details>
+</details>
+
 - [Cloudflare WARP](https://1.1.1.1/): makes your Internet more private
 - [WireGuard](https://wireguard.com/install/): WireGuard is a fast, modern, and secure VPN tunnel. + [WireGuard Config by ProtonVPN](https://account.protonvpn.com/downloads): free, secure, and ultra-fast VPN designed to protect your privacy online and to unblock access to popular websites and streaming platforms, no matter where you are. Free VPN features | No ads | No logs | Unlimited and free forever | Strongest protocols (Wireguard, Stealth) | Open source & Ads and malware blocker (Netshield).
 - [AdGuard VPN](https://adguard-vpn.com/en/windows/overview.html): AdGuard VPN for Windows

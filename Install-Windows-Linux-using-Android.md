@@ -209,6 +209,7 @@ Player
 
 Productivity
 
+- [Microsoft PowerToys](https://apps.microsoft.com/store/detail/XP89DCGQ3K6VLD?ocid=pdpshare): Windows system utilities to maximize productivity
 - [Microsoft Office 365](https://github.com/arghya339/some-stupid-thing/blob/main/Install%20Windows/Install-Windows-Linux-using-Android.md#activate-microsoft-office-365-for-free)
 - [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/?type=windows-x86_64): free and powerful office suite, Alternative to Microsoft Office
 - [Google-Assistant-Unofficial-Desktop-Client](https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases): cross-platform unofficial Google Assistant Client for Desktop

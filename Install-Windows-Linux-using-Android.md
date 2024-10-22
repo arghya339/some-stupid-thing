@@ -239,6 +239,7 @@ Utilities
 VPN & Proxy
 
 - [DNS Changer](https://github.com/DnsChanger/dnsChanger-desktop/releases): DNS Changer
+- [HostsFileEditor](https://github.com/scottlerch/HostsFileEditor/releases): hosts file manager + [StevenBlack/hosts](https://github.com/StevenBlack/hosts/blob/master/hosts): StevenBlack Unified hosts = (adware + malware)
 - [Cloudflare WARP](https://1.1.1.1/): makes your Internet more private
 - [WireGuard](https://wireguard.com/install/): WireGuard is a fast, modern, and secure VPN tunnel. + [WireGuard Config by ProtonVPN](https://account.protonvpn.com/downloads): free, secure, and ultra-fast VPN designed to protect your privacy online and to unblock access to popular websites and streaming platforms, no matter where you are. Free VPN features | No ads | No logs | Unlimited and free forever | Strongest protocols (Wireguard, Stealth) | Open source & Ads and malware blocker (Netshield).
 - [AdGuard VPN](https://adguard-vpn.com/en/windows/overview.html): AdGuard VPN for Windows

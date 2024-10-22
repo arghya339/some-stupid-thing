@@ -141,6 +141,11 @@ Entertainment
 
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube): feature-rich and user-friendly YouTube client with a focus on privacy.
 
+Games
+
+- [Steam](https://store.steampowered.com/about/): the ultimate destination for playing and discussing games.
+- [PUBG](https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/): Play PUBG BATTLEGROUNDS for free.
+
 Graphics & Design
 
 - [Blender](https://www.blender.org/download/) - Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline: modeling, rigging, animation, simulation, rendering, compositing, motion tracking, and video editing.

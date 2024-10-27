@@ -109,6 +109,7 @@ Developer Tools
 - [Android Studio](https://developer.android.com/studio): official Integrated Development Environment (IDE) for Android app development.
 - [android-platfrom-tool](https://developer.android.com/tools/releases/platform-tools): Google tool that allows you to use ADB commands for Android devices.
 - [APKToolGUI](https://github.com/AndnixSH/APKToolGUI): Tool for reverse engineering 3rd party, closed, binary Android apps
+- [JADX](https://github.com/skylot/jadx/releases): Dex to Java decompiler
 
 Downloader
 
@@ -122,6 +123,7 @@ Downloader
   - Example: To install the Visual Studio Code app using Winget, you would run: `winget install XP9KHM4BK9FZ7Q`
 
 - [chocolatey](https://github.com/chocolatey/choco/releases) - other package manager for Windows
+- [UniGetUI](https://apps.microsoft.com/store/detail/XPFFTQ032PTPHF?ocid=pdpshare): graphical user interface for the most common command-line package managers, , such as Winget, Scoop, Chocolatey, Pip, NPM, etc.
 - [yt-dlp](https://github.com/microsoft/winget-pkgs/tree/master/manifests/y/yt-dlp/yt-dlp): command-line audio/video downloader
 - [yt-dlp-gui](https://github.com/dsymbol/yt-dlp-gui): cross-platform GUI wrapper for yt-dlp
 
@@ -193,6 +195,8 @@ Personalisation
 - [Windows Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases): Automatically switches between the dark and light theme
 - [Desktop Dimmer](https://github.com/sidneys/desktop-dimmer/releases): Enable darker-than-dark dimming for internal and external screens.
 - [Monitorian](https://www.microsoft.com/store/productId/9NW33J738BL0?ocid=pdpshare): adjust the brightness of monitors using monitor Display Data Channel/Command Interface(DDC/CI) controller over VGA/HDMI/DP/Type-C.
+- [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass): Add custom effect to global system title bar
+- [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica): Add background Blur effect to File Explorer
 
 Photo & Video
 
@@ -213,6 +217,7 @@ Productivity
 - [Microsoft Office 365](https://github.com/arghya339/some-stupid-thing/blob/main/Install%20Windows/Install-Windows-Linux-using-Android.md#activate-microsoft-office-365-for-free)
 - [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/?type=windows-x86_64): free and powerful office suite, Alternative to Microsoft Office
 - [Google-Assistant-Unofficial-Desktop-Client](https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases): cross-platform unofficial Google Assistant Client for Desktop
+- [inshellisense](https://github.com/microsoft/inshellisense): IDE style command line auto complete [start PowerShell with the Run as administrator option. ~ `Set-ExecutionPolicy -ExecutionPolicy Unrestricted` ~ `winget install OpenJS.NodeJS.LTS` ~ `npm install -g @microsoft/inshellisense` ~ `is init bash >> ~/.bashrc` ~ `is`]
 
 Security
 
@@ -246,6 +251,7 @@ Utilities
 - [Rufus](https://github.com/pbatard/rufus/releases): Reliable USB Formatting Utility
 - [Balena Etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
 - [WinRAR](https://www.win-rar.com/predownload.html?&L=0): The Windows file archiver (zip,rar,7z)
+- [NanaZip](https://www.microsoft.com/store/productId/9N8G7TSCL18R?ocid=pdpshare): The 7-Zip derivative intended for the modern Windows experience
 - [HandBrake](https://github.com/HandBrake/HandBrake/releases) : video transcoder (mkv/mp4)
 
 VPN & Proxy

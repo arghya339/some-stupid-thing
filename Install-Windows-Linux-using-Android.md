@@ -253,6 +253,8 @@ Utilities
 - [WinRAR](https://www.win-rar.com/predownload.html?&L=0): The Windows file archiver (zip,rar,7z)
 - [NanaZip](https://www.microsoft.com/store/productId/9N8G7TSCL18R?ocid=pdpshare): The 7-Zip derivative intended for the modern Windows experience
 - [HandBrake](https://github.com/HandBrake/HandBrake/releases) : video transcoder (mkv/mp4)
+- [Microsoft PC Manager](https://www.microsoft.com/store/productId/9PM860492SZD?ocid=pdpshare): storage clean-up in one-click
+- [Czkawka](https://github.com/qarmin/czkawka/releases): remove unnecessary(Temporary, Duplicates etc.) files from your computer.
 
 VPN & Proxy
 

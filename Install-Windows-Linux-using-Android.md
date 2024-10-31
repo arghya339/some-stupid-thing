@@ -137,7 +137,7 @@ Emulator
 
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads): Powerful open source virtualization for runing Linux on your Windows.
 - [OSX-Hyper-V](https://github.com/Qonfused/OSX-Hyper-V): OpenCore configuration for running macOS on Windows Hyper-V. + [MacHyperVSupport](https://github.com/acidanthera/MacHyperVSupport): Hyper-V integration support for macOS.
-- [BlueStacks](): World's #1 Android Emulator.
+- [BlueStacks](https://www.bluestacks.com/download.html): World's #1 Android Emulator.
 - [WSL](https://www.microsoft.com/store/productId/9PDXGNCFSCZV?ocid=pdpshare): Run Linux Commands (bash) on Windows
 - [Dolphin Emulator](https://dolphin-emu.org/download/): emulator for two recent Nintendo video game(GameCube and Wii) consoles
 

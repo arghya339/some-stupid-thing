@@ -291,7 +291,7 @@ VPN & Proxy
 - [AdGuard VPN](https://adguard-vpn.com/en/windows/overview.html): AdGuard VPN for Windows
 - [Tor Browser](https://www.torproject.org/download/): Tor-powered Browser
 
-## Releted Repo:
+## Related Repo:
 
 - [AlderLake RaptorLake OpenCore Install Guide](https://github.com/arghya339/some-stupid-thing/blob/main/AlderLake-RaptorLake-OpenCore-Install-Guide.md)
 

@@ -287,7 +287,7 @@ VPN & Proxy
   </details>
 
 - [Cloudflare WARP](https://1.1.1.1/): makes your Internet more private
-- [WireGuard](https://wireguard.com/install/): WireGuard is a fast, modern, and secure VPN tunnel. + [WireGuard Config by ProtonVPN](https://account.protonvpn.com/downloads#wireguard-configuration): free, secure, and ultra-fast VPN designed to protect your privacy online and to unblock access to popular websites and streaming platforms, no matter where you are. Free VPN features | No ads | No logs | Unlimited and free forever | Strongest protocols (Wireguard, Stealth) | Open source & Ads and malware blocker (Netshield).
+- [WireGuard](https://wireguard.com/install/): WireGuard is a fast, modern, and secure VPN tunnel. + [WireGuard Config by ProtonVPN](https://account.protonvpn.com/downloads#wireguard-configuration): The best VPN for speed and security.
 - [OpenVPN](https://openvpn.net/client/#tab-windows): FOSS VPN daemon, Alternative to [WireGuard](https://github.com/WireGuard/wireguard-windows). + [OpenVPN Config by ProtonVPN](https://account.protonvpn.com/downloads#openvpn-configuration-files) + [Proton VPN with the OpenVPN](https://protonvpn.com/support/openvpn-windows-setup/) + [OpenVPN / IKEv2 username](https://account.protonvpn.com/account-password#openvpn)
 - [AdGuard VPN](https://adguard-vpn.com/en/windows/overview.html): AdGuard VPN for Windows
 - [Tor Browser](https://www.torproject.org/download/): Tor-powered Browser

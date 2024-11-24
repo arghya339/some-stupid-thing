@@ -226,7 +226,7 @@ Security
 - [VirusTotal](https://docs.virustotal.com/docs/desktop-apps#windows-uploader): Drag and drop files scan
 - [Avast antivirus](https://www.avast.com/en-in/index#pc): best free antivirus for Windows
 - [Cryptomator](https://cryptomator.org/downloads/): Multi-platform transparent client-side encryption of your files in the cloud
-- [EnteAuth](https://github.com/ente-io/ente/releases?q=auth&expanded=true): Open Source Authenticator with cross platform end-to-end encryption data sync.
+- [EnteAuth](https://github.com/ente-io/ente/releases?q=auth&expanded=true): Open Source Authenticator with cross platform end-to-end encryption data sync. + Fix [Windows Login Error](https://help.ente.io/auth/troubleshooting/windows-login)
 
 Sharing Files
 

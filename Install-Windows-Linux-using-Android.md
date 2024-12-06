@@ -45,6 +45,19 @@
 
 - Windows Setup - Language to install: English (United States) / Time and currency format: English (your_country) / keyboard or input method: English (your_country) > Next > Install now > Activate Windows: I don't have a product key > Windows 11 Pro > Next > Applicable notices and license terms: I accept the Microsoft Software License Terms. > Next > Which type of installation do you want?: Custom > select `Drive 0 Partition 3` > Delete > OK, select `Drive 0 Partition 2` > Delete > OK, select `Drive 0 Partition 1` > Delete > OK > Where do you want to install Windows?: select `Drive 0 Unallocated Space` > Next > Restart now.
 
+> Bypass Internet Connection requirements during Windows 11 installation (Recommended):
+
+- hold `Shift` key & press `F10` key on your keyboard
+
+- From `cmd.exe` type following commands -
+
+  ~ `oobe\bypassnro`
+
+- I don't have internet
+- Continue with limited configuration
+- Now create a Windows local account
+> 
+
 - Is this the right  country or region?: your_country > Yes > Is this the right keyboard layout or input method?: US > Yes > Want to add a second keyboard layout?: Skip > make sure your computer connected to internet by LAN or USB Tethering, WiFi not work now since Windows does't comes with your computer motherboard wifi chip driver.
 - Let's name your device: YourName's_Windows > Next > How would you like to set up this device?: Set up for personal use > Next > Unlock your Microsoft experience: Sign in > Let's add your Microsoft account: enter your Microsoft account credentials > Next > Welcome back, YourFirstName!: More options > Set up as a new PC > Are you sure?: Set up as a new PC > Create a PIN > Set up a PIN > OK > Choose privacy settings for your device: Location=Yes, Find my device=Yes, Diagonostic data=Yes, AllOthers=No > Accept > Let's customize your experience: Skip > Use your phone from your PC: Skip > Always have access to your recent browsing data: Not now > Enter your Windows local user PIN > Enter.
 

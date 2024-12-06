@@ -47,16 +47,15 @@
 
 > Bypass Internet Connection requirements during Windows 11 installation (Recommended):
 
-- hold `Shift` key & press `F10` key on your keyboard
+> - hold `Shift` key & press `F10` key on your keyboard
 
-- From `cmd.exe` type following commands -
+> - From `cmd.exe` type following commands -
 
-  ~ `oobe\bypassnro`
+>       oobe\bypassnro
 
-- I don't have internet
-- Continue with limited configuration
-- Now create a Windows local account
-> 
+> - I don't have internet
+> - Continue with limited configuration
+> - Now create a Windows local account
 
 - Is this the right  country or region?: your_country > Yes > Is this the right keyboard layout or input method?: US > Yes > Want to add a second keyboard layout?: Skip > make sure your computer connected to internet by LAN or USB Tethering, WiFi not work now since Windows does't comes with your computer motherboard wifi chip driver.
 - Let's name your device: YourName's_Windows > Next > How would you like to set up this device?: Set up for personal use > Next > Unlock your Microsoft experience: Sign in > Let's add your Microsoft account: enter your Microsoft account credentials > Next > Welcome back, YourFirstName!: More options > Set up as a new PC > Are you sure?: Set up as a new PC > Create a PIN > Set up a PIN > OK > Choose privacy settings for your device: Location=Yes, Find my device=Yes, Diagonostic data=Yes, AllOthers=No > Accept > Let's customize your experience: Skip > Use your phone from your PC: Skip > Always have access to your recent browsing data: Not now > Enter your Windows local user PIN > Enter.

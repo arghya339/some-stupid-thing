@@ -252,6 +252,7 @@ Social Networking
 Streaming
 
 - [OBS Studio](https://obsproject.com/download): free and open source software for video recording and live streaming. + [DroidCam OBS Plugins](https://droidcam.app/obs/#): connect your phone and get high quality audio & video directly into OBS Studio, just like a regular camera
+- [Camo](https://reincubate.com/camo/downloads/): Use the amazing camera in your phone as a pro-quality webcam.
 - [IriunWebcam](https://iriun.com/) : use your Android phone as a wireless webcam
 - [QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases): Displaying and controlling Android devices via USB or over Local network.
 - [ChromeRemoteDesktop](https://remotedesktop.google.com/access): control your Windows from another device (phone/computer)

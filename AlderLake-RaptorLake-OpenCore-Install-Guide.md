@@ -395,7 +395,7 @@ Used for fixing Monitor Display Brightness-Control over dGPU HDMI/DP using monit
 
 - [LocalSend.dmg](https://apps.apple.com/us/app/localsend/id1661733229) (Recommended): free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices.
 
-- [Mos.dmg](https://github.com/Caldis/Mos/releases) (Recommended): Reverse the mouse wheel scroll direction.
+- [Mos.dmg](https://github.com/Caldis/Mos/releases/tag/3.5.0/) (Recommended): Reverse the mouse wheel scroll direction.
 
 - [Rectangle.dmg](https://github.com/rxhanson/Rectangle/releases) (Recommended): Move and resize windows on macOS.
 
@@ -3421,7 +3421,7 @@ Personalisation
 - [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases): show brighitness/volume slider in mac menu using monitor Display Data Channel/Command Interface(DDC/CI) controller over VGA/HDMI/DP/Type-C.
 - [Lunar](https://github.com/alin23/Lunar/releases) - Intelligent adaptive brightness for your external displays.
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake/releases): Prevents your Mac from going to sleep.
-- [Mos](https://github.com/Caldis/Mos/releases): Reverse the mouse wheel scroll direction
+- [Mos](https://github.com/Caldis/Mos/releases/tag/3.5.0/): Reverse the mouse wheel scroll direction
 - [Rectangle](https://github.com/rxhanson/Rectangle/releases): Move and resize windows on macOS
 
 Photo & Video

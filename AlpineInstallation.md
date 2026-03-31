@@ -85,6 +85,15 @@ How would like to use it: sys
 Erase the above disk and continue? (y/n): y 
 ```
 ```
+reboot
+```
+```
+<your-username>
+```
+```
+<your-password>
+```
+```
 su -
 ```
 ```

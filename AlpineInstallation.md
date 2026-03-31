@@ -182,4 +182,7 @@ Open Gnome Console (Terminal)
 ```
 echo $SHELL
 ```
+```
+sudo apk del epiphany
+```
 ---

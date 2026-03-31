@@ -84,6 +84,7 @@ How would like to use it: sys
 ```
 Erase the above disk and continue? (y/n): y 
 ```
+Remove bootable iso
 ```
 reboot
 ```
@@ -111,9 +112,10 @@ adduser <your-username> wheel
 ```
 exit
 ```
-Remove bootable iso
 ```
 sudo reboot
+```
+```
 ```
 ```
 alpine-linux login: <your-username>

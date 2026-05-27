@@ -102,6 +102,7 @@ Player
 - [VLC](https://flathub.org/en/apps/org.videolan.VLC): free and open source cross-platform multimedia player
 
 Productivity
+- [Super Productivity](https://flathub.org/en/apps/com.super_productivity.SuperProductivity): Free and open source advanced todo list app.
 - [LibreOffice](https://flathub.org/en/apps/org.libreoffice.LibreOffice): free and powerful office suite, Alternative to Microsoft Office
 - [Google-Assistant-Unofficial-Desktop-Client](https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases): cross-platform unofficial Google Assistant Client for Desktop
 - [inshellisense](https://github.com/microsoft/inshellisense): IDE style command line auto complete start PowerShell with the Run as administrator option.

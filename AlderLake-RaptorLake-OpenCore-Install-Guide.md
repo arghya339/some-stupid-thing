@@ -3440,6 +3440,7 @@ Player
 
 Productivity
 
+- [Super Productivity](https://apps.apple.com/in/app/super-productivity/id1482572463): Free and open source advanced todo list app.
 - [Microsoft To Do](https://apps.apple.com/in/app/microsoft-to-do/id1274495053): Capture Tasks & Set Reminders.
 - [Microsoft Office](https://formulae.brew.sh/cask/microsoft-office): OneDrive, Microsoft Excel, Microsoft Word, Microsoft OneNote, Microsoft PowerPoint, Microsoft Outlook, Defender. + [Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS/releases): Activited Microsoft Office For MacOS.
 - [Keynote](https://apps.apple.com/us/app/keynote/id409183694?mt=12): free powerful presentations app by Apple

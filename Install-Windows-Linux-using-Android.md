@@ -228,6 +228,7 @@ Player
 
 Productivity
 
+- [Super Productivity](https://apps.microsoft.com/detail/9nhfvg8361tw): Free and open source advanced todo list app.
 - [Microsoft PowerToys](https://apps.microsoft.com/store/detail/XP89DCGQ3K6VLD?ocid=pdpshare): Windows system utilities to maximize productivity
 - [Microsoft Office 365](https://github.com/arghya339/some-stupid-thing/blob/main/Install%20Windows/Install-Windows-Linux-using-Android.md#activate-microsoft-office-365-for-free)
 - [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/?type=windows-x86_64): free and powerful office suite, Alternative to Microsoft Office

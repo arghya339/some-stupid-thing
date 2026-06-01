@@ -1901,6 +1901,46 @@ PasswordSalt|Data|||Related to `EnablePassword`. Ensures 2 users with the exact 
 ScanPolicy|Number|0|Root > Misc > Security|this quirk allows to prevent scanning and booting from untrusted sources. Setting to `0` will allow all sources present to be bootable
 SecureBootModel|String|Disabled||as `Default` for OpenCore to automatically set the correct value corresponding to your SMBIOS. This enables security features such as the verification of macOS' `boot.efi`, with restricting which macOS versions OpenCore will boot. `Default` set to `x86legacy` Recommended for VMs.
 Vault|String|Optional||[more info](https://dortania.github.io/OpenCore-Post-Install/universal/security/vault.html)
+
+##### [ScanPolicy](https://dortania.github.io/OpenCore-Post-Install/universal/security/scanpolicy.html) in-depth
+Flag|HexValue|DecValue|Info
+:----|:----|:----|:----
+OC_SCAN_FILE_SYSTEM_LOCK|0x00000001|1|Telling OpenCore to Stop scanning every single type of file system format (APFS: macOS, NTFS: Windows, EXT4: Linux, FAT32: USB drives, ESP: EFI System Partition). Only read the specific file systems I give you permission to read.
+OC_SCAN_DEVICE_LOCK|0x00000002|2|Its changing OpenCore's behavior from `Scan Everything` to an `Opt-In Only` system for physical hardware (NVMe slots, SATA cables, USB ports).
+OC_SCAN_ALLOW_FS_APFS|0x00000100|256|That allows OpenCore to see and boot from modern macOS (10.13+) drives (APFS: Apple File System).
+OC_SCAN_ALLOW_FS_HFS|0x00000200|512|That allows OpenCore to see and boot from legacy macOS (10.13-) drives (HFS: Hierarchical File System).
+OC_SCAN_ALLOW_FS_ESP|0x00000400|1024|That allows OpenCore to scan the EFI System Partition (ESP) on your hard drives (SATA, NVMe).
+OC_SCAN_ALLOW_DEVICE_SATA|0x00010000|65536|That grants OpenCore permission to scan storage devices connected via SATA ports.
+OC_SCAN_ALLOW_DEVICE_SASEX|0x00020000|131072|That grants OpenCore permission to scan for SAS (Serial Attached SCSI: heavy-duty, high-performance drives typically found in enterprise servers, workstations) storage controllers devices.
+OC_SCAN_ALLOW_DEVICE_NVME|0x00080000|524288|That grants OpenCore permission to scan for fast, modern NVMe solid-state drives (typically M.2 drives connected via PCIe).
+OC_SCAN_ALLOW_DEVICE_ATAPI|0x00100000|1048576|That grants OpenCore permission to scan for Optical Drives ([CD/DVD Burner](https://www.asus.com/in/motherboards-components/optical-drives/internal-dvd-drive/drw-24d5mt/)).
+OC_SCAN_ALLOW_DEVICE_USB|0x00200000|2097152|That grants OpenCore permission to scan for USB storage devices (thumb drives or external hard drives).
+OC_SCAN_ALLOW_DEVICE_SDCARD|0x00800000|8388608|That grants OpenCore permission to scan for SD card and MMC readers connected directly to your system.
+OC_SCAN_ALLOW_DEVICE_PCI|0x01000000|16777216|Use when you are running macOS inside a virtual machine (QEMU) and using a virtualized hard drive interface (VIRTIO). 
+
+ScanPolicy is given a value of 29033219 (0x1BB0303) which is the combination of the following:
+
+- FS Lock (1)
+- Device Lock (2)
+- APFS (256)
+- HFS (512)
+- SATA (65536)
+- SAS (131072)
+- NVMe (524288)
+- CD/DVD (1048576)
+- USB (2097152)
+- SDCARD (8388608)
+- PCI (16777216)
+
+Sum: 1 + 2 + 256 + 512 + 65536 + 131072 + 524288 + 1048576 + 2097152 + 8388608 + 16777216 = 29033219 (0x1BB0303)
+
+```plist
+<key>ScanPolicy</key>
+<integer>29033219</integer>
+```
+
+By setting your ScanPolicy to 29033219, you can effectively built the ultimate `Scan Everything Except the Ghost Entries (ESP)` policy.
+
 #### Serial
 
  Used for serial debugging (Leave everything as default).

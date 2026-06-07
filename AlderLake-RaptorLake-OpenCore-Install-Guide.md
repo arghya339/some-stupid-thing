@@ -3421,7 +3421,7 @@ IDE
   - [cline](https://github.com/cline/cline): Autonomous coding agent right in your IDE.
   - [continue](https://github.com/continuedev/continue): Create, share, and use custom AI code assistants with this open-source IDE extensions.
 - [vscodium](https://github.com/VSCodium/vscodium/releases): VS Code without MS branding/telemetry/licensing
-- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=mac): The IDE for Java and Kotlin enthusiasts.
+- [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community/releases): The IDE for Java and Kotlin enthusiasts.
 - [macdown](https://github.com/MacDownApp/macdown/releases): Open source Markdown editor for macOS.
 - [MarkText](https://github.com/marktext/marktext/releases): A simple and elegant cross-platfrom markdown editor
 
@@ -3445,7 +3445,8 @@ Navigation
 
 News
 
-- [NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire/releases): RSS reader for macOS + https://9to5mac.com/feed/
+- [Vienna](https://formulae.brew.sh/cask/vienna): [FOSS](https://github.com/ViennaRSS/vienna-rss) RSS feed reader for macOS. + [Apple News](https://www.apple.com/newsroom/rss-feed.rss)
+- [NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire/releases): RSS reader for macOS 15+ + https://9to5mac.com/feed/
 
 Notes
 

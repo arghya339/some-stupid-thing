@@ -176,7 +176,7 @@ IDE
 
 - [VS Code](https://code.visualstudio.com/): powerfull ide
 - [vscodium](https://github.com/VSCodium/vscodium/releases): VS Code without MS branding/telemetry/licensing
-- [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/?section=windows): The IDE for Java and Kotlin enthusiasts.
+- [IntelliJ IDEA Community Edition](https://github.com/JetBrains/intellij-community/releases): The IDE for Java and Kotlin enthusiasts.
 - [MarkdownMonster](https://github.com/RickStrahl/MarkdownMonster/releases): An extensible Markdown Editor, Viewer for Windows.
 - [MarkText](https://github.com/marktext/marktext/releases): A simple and elegant cross-platfrom markdown editor
 

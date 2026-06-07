@@ -66,7 +66,7 @@ Graphics & Design
 IDE
 - [VS Code](https://flathub.org/en/apps/com.visualstudio.code): powerfull ide + [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [VSCodium](https://flathub.org/en/apps/com.vscodium.codium): VS Code without MS branding/telemetry/licensing
-- [IntelliJ IDEA CE](https://flathub.org/lt/apps/com.jetbrains.IntelliJ-IDEA-Community): Integrated Development Environment (IDE) for professional development in Java and Kotlin.
+- [IntelliJ IDEA CE](https://flathub.org/en/apps/com.jetbrains.IntelliJ-IDEA-Community): Integrated Development Environment (IDE) for professional development in Java and Kotlin.
 - [MarkText](https://github.com/marktext/marktext/releases): A simple and elegant cross-platfrom markdown editor
 
 Music

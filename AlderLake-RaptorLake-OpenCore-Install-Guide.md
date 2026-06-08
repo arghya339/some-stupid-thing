@@ -2416,26 +2416,35 @@ if you need follow: [Install Windows/ Linux using Android](https://github.com/ar
 ### Moving OpenCore EFI from USB to macOS EFI Drive
 
 #### Now you need to MOUNT your hidden EFI partition and copy USB Drive EFI folder to your EFI partition:
-
+---
+##### Mount EFI Partition System using Disk Utility
+- Open `Terminal` from `Launchpad` > `Other`
+- Mount EFI Partition System by following command:
+```sh
+sudo diskutil mount EFI
+```
+---
+##### Mount EFI Partition System using MountEFI script
 - Download [MountEFI.zip](https://github.com/corpnewt/MountEFI) and unzip it by left click
-- right click and open `MountEFI.command` then click open again > ok > it download Python > now you can see MountEFI menu > mount `Macintosh HD(APFS)` drive by pick option `1` > then enter your password > then pick the USB Drive containing EFI folder for mycase USB Drive is called `USB Drive(FAT32)` so i pick option `3` > Pick the drive containing your system EFI for mycase new `EFI`(200MB+) so i pick option `1` > then enter your password > now quit form `mountEFI.command` press `Q` and hit `enter` > Now open `Folder` > Go > Computer > Macintosh HD > and also open USB Drive EFI folder from desktop > drag & drop EFI folder from USB Drive to Macintosh HD EFI folder > restart your Macintosh.
+- right click and open `MountEFI.command` then click open again > ok > it download Python > now you can see MountEFI menu > mount `Macintosh HD(APFS)` drive by pick option `1` > then enter your password > then pick the USB Drive containing EFI folder for mycase USB Drive is called `USB Drive(FAT32)` so i pick option `3` > Pick the drive containing your system EFI for mycase new `EFI`(200MB+) so i pick option `1` > then enter your password > now quit form `mountEFI.command` press `Q` and hit `enter` > Now open `Finder` > `Go` > `Computer` > `EFI` Partition and also open `USB Drive` from Desktop then drag & drop EFI folder from USB Drive to EFI Partition System then restart (sudo reboot) your Macintosh.
 
 Alternative way to Mount your system EFI (Recommended): from MountEFI menu > Mount the Boot Drive's EFI by pick option `B` > then enter your password > close terminal > Terminate.
-
+---
+##### Mount EFI Partition System using EFI-Agent App
 - [EFI-Agent](https://github.com/benbaker76/EFI-Agent/releases): GUI based tool to Mount Hidden EFI partitions, Alternative to MountEFI.cmd
 
 download and Install EFI-Agent on mac > Open EFI-Agent > from macOS menu bar click on EFI-Agent logo
-identifi macOS EFI partitions its typically something like:  `BSDName: disk0s1` `MountPoint: /Volumes/EFI` `VolumeName/DiskType: EFI`
-after indentifi macOS EFI partitions > right click on macOS EFI chose `Mount`.
+identifi macOS EFI partitions its typically something like:  `BSDName: disk0s1` `MountPoint: /Volumes/EFI`
+after indentifi macOS EFI Partition > right click on macOS EFI chose `Mount`.
 open Finder > Go > Computer
-identify macOS EFI partitions its has same logo as Macintosh HD.
-after identifi macOS EFI partitions from Finder > double click on macOS EFI partitions > double click on EFI folder
-open your USB DRIVE by double click USB DRIVE from your Desktop folder > double click on USB DRIVE EFI folder
-copy the USB DRIVE both BOOT and OC folder to macOS EFI folder
-Now, you see macOS folder has following contents: Apple, BOOT, OC, in Computer > EFI > EFI dir.
-Eject USB DRIVE form your Computer USB Port
-Then, Restart your mac from Apple menu.
-
+identify macOS EFI Partitions its has same logo as Macintosh HD.
+after identifi macOS EFI Partitions from Finder > double click on macOS `EFI` Partition System
+open your USB Drive by double click USB Drive from your Desktop
+copy the USB Drive's `EFI` folder to macOS `EFI` Partition System
+Now, you see macOS `EFI` Partition System has following contents: BOOT, OC, in Computer > EFI > `EFI`.
+Eject USB Drive form your Computer's USB Port
+Then, Restart your mac from Apple menu or Terminal by `sudo reboot`.
+---
 ### 💐Congratulations! You have successfully built your first Hackintosh!
 
 </details>

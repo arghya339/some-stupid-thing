@@ -132,7 +132,7 @@ python macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
 ```
 ##### [Tahoe (26)](https://www.apple.com/in/os/macos/) | Latest
 ```py
-
+python macrecovery.py -b Mac-CFF7D910A743CAAF -m 00000000000000000 -os latest download
 ```
 
 - macOS 12 and above note: As recent macOS versions introduce changes to the USB stack, it is highly advisable that you map your USB ports (with `USBToolBox`) before installing macOS.

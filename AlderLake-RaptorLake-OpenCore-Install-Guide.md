@@ -3440,7 +3440,8 @@ Lifestyle
 
 Music
 
-- [YouTube Music](https://github.com/th-ch/youtube-music/releases/latest): YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
+- [Kaset](https://github.com/sozercan/kaset): A native macOS 15+ YouTube Music client built with Swift and SwiftUI. + [uBlock Origin Lite](https://apps.apple.com/app/ublock-origin-lite/id6745342698)
+- [YouTube Music](https://github.com/th-ch/youtube-music/releases/latest): Outdated YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
 - [spotube](https://github.com/KRTirtho/spotube/releases): Open source Spotify client
 - [aural](https://github.com/kartik-venugopal/aural-player): audio player
 - [museeks](https://github.com/martpie/museeks/releases): A simple, clean and cross-platform music player

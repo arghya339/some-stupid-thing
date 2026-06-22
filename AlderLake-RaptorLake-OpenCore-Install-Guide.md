@@ -3248,6 +3248,7 @@ Browser
 Cloud Drive
 
 - [Google Drive](https://dl.google.com/drive-file-stream/GoogleDrive.dmg): Google cloud storage.
+- [GoogleDriveSync](https://github.com/saihgupr/GoogleDriveSync/releases/latest): A native macOS menu bar app for seamless Google Drive syncing.
 
 Communication
 

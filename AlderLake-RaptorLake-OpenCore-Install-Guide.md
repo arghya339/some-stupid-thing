@@ -3113,6 +3113,7 @@ Audio
    - Now you should be able to control HDMI/DP audio via keyboard dedicated media key and listen audio via HDMI/DP Port.
    </details>
 
+- [FineTune](https://github.com/ronitsingh10/FineTune): A macOS 15+ menu bar app for per-app volume control.
 - [BackgroundMusic](https://github.com/kyleneideck/BackgroundMusic/releases): Per-application volume control
 - [eqMac](https://github.com/bitgapp/eqMac/releases): macOS System-wide Audio Equalizer & Volume Mixer
 - [audacity](https://github.com/audacity/audacity/releases): Audio Editor, Alternative to Apple Logic Pro

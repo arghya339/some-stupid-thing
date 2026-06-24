@@ -3277,8 +3277,13 @@ Developer Tools
 
 - [Git](https://formulae.brew.sh/formula/git#default): Distributed revision control system
 - [GitHub Desktop](https://github.com/desktop/desktop/releases/latest) - Simple collaboration from your desktop. [GitHub Desktop for Linux](https://github.com/shiftkey/desktop/releases)/[GitHub Mobile for Android](https://play.google.com/store/apps/details?id=com.github.android)/[GitHub Mobile for iOS](https://apps.apple.com/us/app/github/id1477376905)
-- [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12): create great applications for Mac, iPhone, iPad, Apple TV, Apple Watch and Apple Vision Pro.
-- [Command Line Tools for Xcode](https://developer.apple.com/download/all/):
+- [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12): Create great applications for Mac, iPhone, iPad, Apple TV, Apple Watch and Apple Vision Pro.
+- [Xcode versions](https://developer.apple.com/support/xcode/) + [Xcode Download](https://developer.apple.com/download/all/?q=Xcode)
+- [Xcode for macOS Sonoma 14](https://developer.apple.com/download/all/?q=Xcode%2016.2)
+- [Command Line Tools for Xcode](https://developer.apple.com/download/all/?q=Command%20Line%20Tools%20for%20Xcode):
+  ```sh
+  pkgutil --pkg-info=com.apple.pkg.CLTools_Executables | grep version | awk '{print $2}' || brew config | grep "CLT" | awk '{print $2}'
+  ```
   ```
   xcode-select --install
   ```

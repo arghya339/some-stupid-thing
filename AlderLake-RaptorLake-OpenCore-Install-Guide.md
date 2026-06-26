@@ -3652,6 +3652,7 @@ Tools
 
 Utilities
 
+- [macUSB](https://github.com/Kruszoneq/macUSB): Bootable USB creator for Mac.
 - [Balena Etcher](https://github.com/balena-io/etcher) - Flash OS images to SD cards & USB drives, safely and easily.
 - [Keka](https://github.com/aonez/Keka/releases): The macOS & iOS file archiver (zip,rar,7z)
 - [HandBrake](https://github.com/HandBrake/HandBrake/releases) : video transcoder (mkv/mp4)

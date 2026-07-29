@@ -1939,7 +1939,10 @@ Sum: 1 + 2 + 256 + 512 + 65536 + 131072 + 524288 + 1048576 + 2097152 + 8388608 +
 <integer>29033219</integer>
 ```
 
-By setting your ScanPolicy to 29033219, you can effectively built the ultimate `Scan Everything Except the Ghost Entries (ESP)` policy.
+By setting your `ScanPolicy` from `0` to `29033219`, you can effectively built the ultimate `Scan Everything Except the Ghost Entries (ESP)` policy.
+
+> [!WARNING]
+> Please keep `ScanPolicy` as `0` (default) during installation. Only change it to `29033219` after installation if you want to hide the `ESP` partition from the OpenCore boot entry.
 
 #### Serial
 
@@ -3292,6 +3295,14 @@ Developer Tools
 - [Android Studio](https://developer.android.com/studio): official Integrated Development Environment (IDE) for Android app development.
 - [android-platfrom-tool](https://formulae.brew.sh/cask/android-platform-tools#default): Google tool that allows you to use ADB commands for Android devices.
 - [JDK](https://formulae.brew.sh/formula/openjdk#default): Java Development Kit
+- [jadx](https://github.com/skylot/jadx#install): Java decompiler
+  ```sh
+  brew install openjdk@21  # install jdk v21 using homebrew
+  jdk="openjdk@21"; grep -q "export PATH=\"/usr/local/opt/$jdk/bin:\$PATH\"" ~/.zshrc 2>/dev/null || echo "export PATH=\"/usr/local/opt/$jdk/bin:\$PATH\"" >> ~/.zshrc  # add java binary path to zsh source file
+  grep -qF 'JAVA_HOME="/usr/local/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"' ~/.zshrc || echo 'export JAVA_HOME="/usr/local/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"' >> ~/.zshrc && source ~/.zshrc  # add java 21 home path to zsh source file
+  brew install jadx  # install jadx using brew
+  jadx-gui  # launch JavaFx power jadx GUI
+  ```
 - [apktool](https://formulae.brew.sh/formula/apktool#default): Tool for reverse engineering 3rd party, closed, binary Android apps
 - [jd-gui](https://github.com/java-decompiler/jd-gui/releases): A standalone Java Decompiler GUI.
 - [cutter](https://github.com/rizinorg/cutter): FOSS Reverse Engineering Platform
@@ -3509,6 +3520,7 @@ Productivity
 - [Google-Assistant-Unofficial-Desktop-Client](https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases): cross-platform unofficial Google Assistant Client for Desktop
 - [MacAssistant](https://github.com/vanshg/MacAssistant/releases): Google Assistant for macOS menu bar!
 - [inshellisense](https://github.com/microsoft/inshellisense): IDE style command line auto complete, Requirements [Node.js](https://formulae.brew.sh/formula/node)
+- [grade2zsh](https://github.com/arghya339/grade2zsh): Customize Terminal by upgrade to zsh.
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#basic-installation): managing Themes your zsh configuration.
   > uninstall ohmyzsh: `bash ~/.oh-my-zsh/tools/uninstall.sh`
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Fish-like autosuggestions for zsh.
@@ -3666,7 +3678,7 @@ VPN & Proxy
 - [WireGuard](https://WireGuard.com/install/): WireGuard is a fast, modern, and secure VPN tunnel. + [WireGuard Config by ProtonVPN](https://account.protonvpn.com/downloads#wireguard-configuration): The best VPN for speed and security.
 - [OpenVPN](https://openvpn.net/client/#tab-macos): FOSS VPN daemon, Alternative to [WireGuard](https://github.com/WireGuard/wireguard-apple). + [OpenVPN Config by ProtonVPN](https://account.protonvpn.com/downloads#openvpn-configuration-files) + [OpenVPN Connect for macOS](https://openvpn.net/client-connect-vpn-for-mac-os/) + [OpenVPN / IKEv2 username](https://account.protonvpn.com/account-password#openvpn)
 - [Tunnelblick](https://github.com/Tunnelblick/Tunnelblick/releases): FOSS OpenVPN GUI. + [OpenVPN Config by ProtonVPN](https://account.protonvpn.com/downloads#openvpn-configuration-files) +  [OpenVPN on macOS using Tunnelblick](https://protonvpn.com/support/mac-vpn-setup) + [OpenVPN / IKEv2 username](https://account.protonvpn.com/account-password#openvpn)
-- [AdGuard VPN](https://adguard-vpn.com/en/mac/overview.html): AdGuard VPN for macOS
+- [AdGuard VPN](https://apps.apple.com/in/app/adguard-vpn-free-your-privacy/id1525373602): AdGuard VPN for macOS
 - [Orbot](https://apps.apple.com/us/app/orbot/id1609461599): Open-source Tor-powered VPN.
 
 Wallpaper

@@ -8,7 +8,7 @@ Audio
 Browser
 - [Chromium](https://flathub.org/en/apps/org.chromium.Chromium): Google Chromium
 - [Chrome](https://flathub.org/en/apps/com.google.Chrome): Google Chrome
-- [FireFox](https://flathub.org/en/apps/org.mozilla.firefox): Firefox, is a free and open source web browser that puts your privacy first
+- [FireFox](https://flathub.org/en/apps/org.mozilla.firefox): Firefox, is a free and open source web browser that puts your privacy first. + [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) + [desktop-me](https://addons.mozilla.org/en-US/firefox/collections/17182101/desktop-me/?page=1&collection_sort=-popularity)
 - [Brave](https://flathub.org/en/apps/com.brave.Browser): Browser built with BAT based on Ether cryptocurrencies
 - [Microsoft Edge](https://flathub.org/en/apps/com.microsoft.Edge): smarter way to browse
 - [Opera](https://flathub.org/en/apps/com.opera.Opera): Faster, safer and smarter than default browsers.
@@ -29,6 +29,7 @@ Developer Tools
 - [Android Studio](https://flathub.org/en/apps/com.google.AndroidStudio): official Integrated Development Environment (IDE) for Android app development.
 - Android platform tools(adb, fastboot): Google tool that allows you to use ADB commands for Android devices. `sudo dnf install android-tools`
 - [jdk](https://www.java.com/en/download/): `sudo dnf install java-latest-openjdk`
+- [jadx](https://github.com/skylot/jadx#install): Java decompiler
 - [JADX](https://flathub.org/en/apps/com.github.skylot.jadx): Dex to Java decompiler
 - [Apktool](https://github.com/iBotPeaches/Apktool): A tool for reverse engineering Android apk files 
 - [Cutter](https://flathub.org/en/apps/re.rizin.cutter): Free and Open Source Reverse Engineering Platform powered by Rizin and Qt
@@ -70,7 +71,8 @@ IDE
 - [MarkText](https://github.com/marktext/marktext/releases): A simple and elegant cross-platfrom markdown editor
 
 Music
-- [YouTube Music](https://github.com/pear-devs/pear-desktop/releases/latest): YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
+- [YouTube Music](https://github.com/th-ch/youtube-music/releases/latest): [Outdated](https://github.com/pear-devs/pear-desktop/discussions/4398) YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
+- [YouTube Music Fork](https://github.com/michei69/pear-desktop/releases/tag/v3.11.11)
 - [Museeks](https://github.com/martpie/museeks/releases): A simple, clean, and cross-platform music player.
 
 Navigation
@@ -90,6 +92,11 @@ Personalisation
 - [GNOME Shell Extensions](https://extensions.gnome.org/)
   - [dash-to-dock](https://github.com/micheleg/dash-to-dock)
   - [Blur my Shell](https://github.com/aunetx/blur-my-shell)
+  - [Vitals](https://github.com/corecoding/Vitals): Linux system monitor in your menu bar
+  - [GSConnect](https://github.com/GSConnect/gnome-shell-extension-gsconnect)
+  ```sh
+  gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'  # show gnome app all menu buttons
+  ```
 
 Photo & Video
 - [DavinchiResolve](https://www.blackmagicdesign.com/products/davinciresolve): Professional video editing tools, Alternative to Adobe Premiere Pro
@@ -102,10 +109,12 @@ Player
 - [VLC](https://flathub.org/en/apps/org.videolan.VLC): free and open source cross-platform multimedia player
 
 Productivity
+- [Kuro](https://github.com/davidsmorais/kuro/releases/latest): [Microsoft ToDo](https://to-do.office.com/tasks/) desktop client for Linux.
 - [Super Productivity](https://flathub.org/en/apps/com.super_productivity.SuperProductivity): Free and open source advanced todo list app.
 - [LibreOffice](https://flathub.org/en/apps/org.libreoffice.LibreOffice): free and powerful office suite, Alternative to Microsoft Office
 - [Google-Assistant-Unofficial-Desktop-Client](https://github.com/Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client/releases): cross-platform unofficial Google Assistant Client for Desktop
 - [inshellisense](https://github.com/microsoft/inshellisense): IDE style command line auto complete start PowerShell with the Run as administrator option.
+- [grade2zsh](https://github.com/arghya339/grade2zsh): Customize Terminal by upgrade to zsh.
 - zsh: `sudo dnf install zsh` `chsh -s /usr/bin/zsh` `exit` `echo $0`
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#basic-installation): managing Themes your zsh configuration.
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Fish-like autosuggestions for zsh.
@@ -177,7 +186,7 @@ VPN & Proxy
 - [hostctl](https://github.com/guumaster/hostctl/releases): hosts file manager + [StevenBlack/hosts](https://github.com/StevenBlack/hosts/blob/master/hosts): StevenBlack Unified hosts = (adware + malware)
 - [Cloudflare WARP](https://one.one.one.one/): makes your Internet more private.
   <details><summary>
-  install
+  install WARP
   </summary>
     
     ```
@@ -212,17 +221,17 @@ VPN & Proxy
    ```
    wg genkey | tee privatekey | wg pubkey | sudo tee /etc/wireguard/publickey
    ```
-  - Copy downloaded proton-vpn wg config to `/etc/wireguard/`
+  - Move the downloaded proton-vpn wg config file from Downloads to `/etc/wireguard/`
    ```
-   sudo nmcli con import type wireguard file /etc/wireguard/wg-US-FREE-2.conf
+   sudo mv ~/Downloads/wg-*.conf /etc/wireguard/
    ```
-  - Import wg config into Fedora’s NetworkManager (Fedora's `Settings` > `Network` > `VPN`)
+  - Import wg config from `/etc/wireguard/` into Fedora’s NetworkManager (Fedora's `Settings` > `Network` > `VPN`)
    ```
-   sudo nmcli con import type wireguard file /etc/wireguard/wg-US-FREE-2.conf
+   sudo nmcli con import type wireguard file /etc/wireguard/wg-*.conf
    ```
   - CLI
   ```
-  sudo nmcli connection show
+  sudo nmcli connection show | cat
   ```
   ```
   sudo wg-quick up wg-US-FREE-2
@@ -250,4 +259,5 @@ VPN & Proxy
 - [Tor Browser](https://flathub.org/en/apps/org.torproject.torbrowser-launcher): [Tor](https://www.torproject.org/download/)-powered Browser
 
 Wallpaper
+- [BingWallpaper](https://github.com/arghya339/BingWallpaper): Change wallpaper with Bing image of the day.
 - [bing-wallpaper-gnome-extension](https://github.com/neffo/bing-wallpaper-gnome-extension): GNOME shell extension that syncs your desktop & lock screen wallpaper to Microsoft Bing's Image of the Day.

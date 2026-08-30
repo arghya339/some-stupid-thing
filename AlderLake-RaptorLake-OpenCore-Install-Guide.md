@@ -3459,8 +3459,7 @@ Lifestyle
 Music
 
 - [Kaset](https://github.com/sozercan/kaset): A native macOS 15+ YouTube Music client built with Swift and SwiftUI. + [uBlock Origin Lite](https://apps.apple.com/app/ublock-origin-lite/id6745342698)
-- [YouTube Music](https://github.com/th-ch/youtube-music/releases/latest): [Outdated](https://github.com/pear-devs/pear-desktop/discussions/4398) YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
-- [YouTube Music Fork](https://github.com/michei69/pear-desktop/releases/tag/v3.11.11)
+- [YouTube Music](https://github.com/th-ch/youtube-music/releases/latest): (`Adblocker` plugin rename to `Do Not Track` and disabled by default) YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)
 - [spotube](https://github.com/KRTirtho/spotube/releases): Open source Spotify client
 - [aural](https://github.com/kartik-venugopal/aural-player): audio player
 - [museeks](https://github.com/martpie/museeks/releases): A simple, clean and cross-platform music player
@@ -3637,6 +3636,9 @@ Streaming
 - [OBS Studio](https://github.com/obsproject/obs-studio/releases): free and open source software for video recording and live streaming. + [DroidCam OBS Plugins](https://droidcam.app/obs/#): connect your phone and get high quality audio & video directly into OBS Studio, just like a regular camera
 - [IriunWebcam](https://iriun.com/) : use your Android phone as a wireless webcam
 - [scrcpy](https://github.com/Genymobile/scrcpy/releases): Display and control your Android device
+  ```
+  scrcpy --audio-source=playback -S #--new-display=1920x1080 #-r file.mkv
+  ```
 - [QtScrcpy](https://github.com/barry-ran/QtScrcpy/releases): Displaying and controlling Android devices via USB or over Local network.
 - [airsync-mac](https://github.com/sameerasw/airsync-mac): adb & media-control to Android + [airsync-android](https://github.com/sameerasw/airsync-android): Android app for AirSync
 - [Android tool for Mac](https://github.com/mortenjust/androidtool-mac) - One-click screenshots, video recordings, app installation for iOS and Android

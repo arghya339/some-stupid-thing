@@ -2799,7 +2799,7 @@ to update or upgrade your hackintosh
 
 <details><summary>
 
-## 📊[Cinebench](https://www.maxon.net/en/downloads/cinebench-2024-downloads) / [Geekbench](https://www.geekbench.com/download/) Score
+## 📊[Cinebench](https://www.maxon.net/en/downloads/cinebench-2024-downloads) / [Geekbench](https://www.geekbench.com/legacy) Score
 </summary>
 
 - Hardware i have:
@@ -3180,6 +3180,8 @@ Browser
   - [WA Web Plus by Elbruz Technologies](https://chromewebstore.google.com/detail/wa-web-plus-by-elbruz-tec/ekcgkejcjdcmonfpmnljobemcbpnkamh): Add more tools and options for WhatsApp Web for more privacy and reliability.
   - [WOT](https://chromewebstore.google.com/detail/wot-website-security-safe/bhmmomiinigofkjcapegjjndpbikblnp): Website Security & Safety Checker.
   </details>
+
+- [Helium Browser](https://github.com/imputnet/helium-macos/releases/latest): Chromium-based web browser made for Privacy.
 
 - [FireFox](https://www.mozilla.org/en-US/firefox/mac/): Firefox, is a free and open source web browser that puts your privacy first. + [Top 50 Firefox Extensions](https://addons.mozilla.org/en-US/firefox/collections/17182101/top-50/): by arghya
 - [Brave](https://brave.com/en-in/download/): Browser built with BAT based on Ethereum cryptocurrencies network, built in AdBlocker & Tor, support Chrome Extensions, better than [Chrome](https://play.google.com/store/apps/details?id=com.android.chrome).

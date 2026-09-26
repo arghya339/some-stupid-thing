@@ -9,6 +9,7 @@ Browser
 - [Chromium](https://flathub.org/en/apps/org.chromium.Chromium): Google Chromium
 - [Chrome](https://flathub.org/en/apps/com.google.Chrome): Google Chrome
 - [FireFox](https://flathub.org/en/apps/org.mozilla.firefox): Firefox, is a free and open source web browser that puts your privacy first. + [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) + [desktop-me](https://addons.mozilla.org/en-US/firefox/collections/17182101/desktop-me/?page=1&collection_sort=-popularity)
+- [Helium Browser](https://github.com/imputnet/helium-linux/releases/latest): Chromium-based web browser made for Privacy.
 - [Brave](https://flathub.org/en/apps/com.brave.Browser): Browser built with BAT based on Ether cryptocurrencies
 - [Microsoft Edge](https://flathub.org/en/apps/com.microsoft.Edge): smarter way to browse
 - [Opera](https://flathub.org/en/apps/com.opera.Opera): Faster, safer and smarter than default browsers.

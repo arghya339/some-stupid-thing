@@ -99,6 +99,7 @@ Browser
 
 - [Chrome](https://www.google.com/chrome/): Google Chromium
 - [FireFox](https://www.mozilla.org/en-US/firefox/windows/): Firefox, is a free and open source web browser that puts your privacy first
+- [Helium Browser](https://github.com/imputnet/helium-windows/releases/latest): Chromium-based web browser made for Privacy.
 - [Brave](https://brave.com/en-in/download/): Browser built with BAT based on Ether cryptocurrencies
 - [Opera](https://www.opera.com/browsers/opera): Faster, safer and smarter than default browsers.
 - [Bitwarden](https://github.com/bitwarden/clients/releases): open source cross platform password manager.
